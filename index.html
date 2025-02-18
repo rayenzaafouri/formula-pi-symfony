@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formula PI - Symfony Workshop
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_32,q_auto:good,w_32/v1/gcs/platform-data-goog/contentbuilder/favicon_BWRrca0.png" sizes="32x32">
+
+    <style>
+      .brand-logo {
+        height: 100%;
+      }
+      nav {
+        height: 8rem;
+      }
+      .env-showcase{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper grey lighten-1">
+        <img class="brand-logo" src="/assets//gdg.png" alt="" />
+        <ul>
+          <img class="brand-logo" src="/assets//gdg.png" alt="" />
+          <li></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h3>Setting Up Symfony with XAMPP</h3>
+      <h4>Downloads</h4>
+      <table border="1">
+        <tr>
+          <th>Dependency</th>
+          <th>Version</th>
+          <th>Windows x64</th>
+          <th>Linux / MacOS</th>
+        </tr>
+        <tr>
+          <td>XAMPP</td>
+          <td>8.0.30 </td>
+
+          <td>
+            <a
+              href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.0.30/xampp-windows-x64-8.0.30-0-VS16-installer.exe"
+              target="_blank"
+              >Download</a
+            >
+          </td>
+
+          <td>
+            <a
+              href="https://www.apachefriends.org/download.html"
+              target="_blank"
+              >Download</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Composer</td>
+          <td>Latest</td>
+          <td>
+            <a href="https://getcomposer.org/Composer-Setup.exe" target="_blank"
+              >Download</a
+            >
+          </td>
+          <td>
+            <a href="https://getcomposer.org/download/" target="_blank"
+              >Download</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Symfony CLI</td>
+          <td>Latest</td>
+          <td>
+            <a href="https://github.com/symfony-cli/symfony-cli/releases/download/v5.11.0/symfony-cli_windows_amd64.zip" target="_blank">Download</a>
+          </td>
+          <td>
+            <a href="https://symfony.com/download" target="_blank">Download</a>
+          </td>
+        </tr>
+      </table>
+    
+      <h3>⚠️ Note on environment variables (Windows systems)</h3>
+
+      <p>After completing the installation of <strong>XAMPP</strong>, add the path of your PHP interpreter to the system environment variables:</p>
+      
+      <ul>
+          <li>Go to the <strong>XAMPP</strong> directory and copy the location of your PHP interpreter: <code>C:\xampp\php</code></li>
+          <li>Navigate to <strong>Control Panel → System → Advanced system settings → Environment Variables</strong>.</li>
+          <li>In <strong>System Variables</strong>, select the <strong>Path</strong> variable, then click <strong>Edit</strong> and paste the PHP interpreter path: <code>C:\xampp\php</code></li>
+          <li>To test it in the <strong>Command Prompt (CMD)</strong>, type <code>php -v</code> and ensure you have the correct PHP version.</li>
+      </ul>
+
+
+      <div class="env-showcase">
+        <img src="/assets/env1.png" alt="">
+        <img src="/assets/env2.png" alt="">
+      </div>
+
+      
+    
+    
+    
+    </div>
+
+
+
+  </body>
+</html>
